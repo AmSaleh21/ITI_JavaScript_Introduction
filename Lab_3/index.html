@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+
+</head>
+
+<body>
+
+    <div class="calc"></div>
+    <div class="container">
+        <div class="screen">0 </div>
+        <div class="currentOperation">&nbsp;</div>
+        <div class="btnsContainer">
+            <!-- Added ----------------------------- -->
+            <div class="btn" onclick="btnOpPress('%')">%</div>
+            <div class="btn" onclick="btnClearPress()">C</div>
+            <div class="btn" onclick="btnNegPress()">-|+</div>
+            <!-- Added ----------------------------- -->
+            <div class="btn" style="background-color: gray;" onclick="btnNegPress()"></div>
+            <div class="btn" onclick="btnPress('7')">7</div>
+            <div class="btn" onclick="btnPress('8')">8</div>
+            <div class="btn" onclick="btnPress('9')">9</div>
+            <div class="btn" onclick="btnOpPress('*')">×</div>
+            <div class="btn" onclick="btnPress('4')">4</div>
+            <div class="btn" onclick="btnPress('5')">5</div>
+            <div class="btn" onclick="btnPress('6')">6</div>
+            <div class="btn" onclick="btnOpPress('-')">-</div>
+            <div class="btn" onclick="btnPress('1')">1</div>
+            <div class="btn" onclick="btnPress('2')">2</div>
+            <div class="btn" onclick="btnPress('3')">3</div>
+            <div class="btn" onclick="btnOpPress('+')">+</div>
+            <div class="btn" onclick="btnOpPress('/')">÷</div>
+            <div class="btn" onclick="btnPress('0')">0</div>
+            <div class="btn" onclick="btnPress('.')">.</div>
+            <div class="btn" onclick="btnEqualPress()">=</div>
+
+        </div>
+    </div>
+    </div>
+    <script src="scripts/graphicCalc.js"></script>
+</body>
+
+</html>
