@@ -40,3 +40,8 @@ JavaScript introduction course at the ITI
         Ask the user to enter the name of the shape he wants to calc area for 
         Ask the user for the dimensions of that shape Calculate the area and show it to user
         
+# Lab 3: functions(Number, String and Array), Introduction to Doms and onClick
+  <br> Task: 
+      
+      Create a Gui calculator 
+ ![image](https://user-images.githubusercontent.com/95314680/151204690-571a4093-e7aa-48f1-b3a9-ed31eed16992.png)
