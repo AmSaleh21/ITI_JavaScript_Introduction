@@ -1,0 +1,50 @@
+.container {
+    width: 400px;
+    height: 510px;
+    margin: 35px auto;
+    font-family: 'Raleway';
+    position: relative;
+    top: 50%;
+    transform: translate(10%, 25%);
+    background-color: #fff;
+    border: 2px grey solid;
+    border-radius: 10px;
+
+}
+
+#userName {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#password {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+#validator-text {
+    padding: 20px;
+    display: none;
+}
