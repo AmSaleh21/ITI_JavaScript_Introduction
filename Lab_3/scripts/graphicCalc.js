@@ -30,7 +30,6 @@ function btnPress(number) {
     displayDataOnScreen();
 }
 
-//Added -------------------------------------
 function btnOpPress(operation) {
     number1 = Number(screenData);
     setOperation(operation);
@@ -38,7 +37,7 @@ function btnOpPress(operation) {
 }
 
 function btnClearPress() {
-    screenData = "";
+    screenData = "0";
     shouldScreenClear = true;
     number1 = 0;
     number2 = 0;
@@ -51,7 +50,6 @@ function btnNegPress() {
     screenData = "";
     btnPress(-number1);
 }
-//Added -------------------------------------
 
 function btnEqualPress() {
     if (op != "") {
