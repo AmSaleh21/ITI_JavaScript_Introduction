@@ -44,4 +44,4 @@ JavaScript introduction course at the ITI
   <br> Task: 
       
       Create a Gui calculator 
- ![image](https://user-images.githubusercontent.com/95314680/151204690-571a4093-e7aa-48f1-b3a9-ed31eed16992.png)
+ ![image](https://user-images.githubusercontent.com/95314680/151365871-58c0c5f6-357b-4f2d-954e-b6b7c7d55dd1.png)
