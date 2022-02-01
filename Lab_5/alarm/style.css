@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding-top: 50px;
+}
+
+
+
+body {
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 40px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#clock {
+    height: 120px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
+}
+
+#alarm-container {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 0.7em;
+    color: #000;
+}
+
+label {
+    display: inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float: center;
+    background-color: green;
+    margin: 30px 10px;
+}
+
+#clearButton {
+    float: center;
+    background-color: red;
+    margin: 30px 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
