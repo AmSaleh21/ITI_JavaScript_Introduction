@@ -60,3 +60,16 @@ JavaScript introduction course at the ITI
       create a fully functional Todo list
    ![o](https://user-images.githubusercontent.com/95314680/151428720-fc061805-5afe-4c64-b5b3-bb508290ba06.jpg)
 
+# Lab 5
+### Form and window events, DOM (Navigation, Selectors, Styling, Attributes, manipulation), Dialogs, Timers and Date object
+  <br> Task 1: 
+        
+          modify the login password from Lab4 to only accept if it has lower letters, capital letters and numbers 
+            length 8
+![image](https://user-images.githubusercontent.com/95314680/152120197-b83a6499-4d04-4721-a290-dca5963ce110.png)
+  
+  <br> Task 2:
+          
+          Alarm Clock
+![image](https://user-images.githubusercontent.com/95314680/152120683-160ba3a7-bdfc-4fd3-b7f4-608c444b604f.jpg)
+
