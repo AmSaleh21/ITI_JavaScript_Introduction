@@ -73,3 +73,13 @@ JavaScript introduction course at the ITI
           Alarm Clock
 ![image](https://user-images.githubusercontent.com/95314680/152120683-160ba3a7-bdfc-4fd3-b7f4-608c444b604f.jpg)
 
+# Lab 6
+### [PH]
+  <br> Task 1:
+        
+          Image Slider
+        
+ <br> Task 2:
+          
+          Make the TODO in Lab4 with local storage
+       
