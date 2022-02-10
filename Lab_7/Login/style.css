@@ -1,0 +1,85 @@
+.container {
+    width: 400px;
+    height: relative;
+    margin: 35px auto;
+    font-family: 'Raleway';
+    position: relative;
+    top: 50%;
+    transform: translate(10%, 10%);
+    background-color: #fff;
+    border: 2px grey solid;
+    border-radius: 10px;
+
+}
+
+#email {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#password {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+#validator-text {
+    padding: 20px;
+    display: none;
+}
+
+/* password validation */
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 12px;
+}
+
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "\2713";
+}
+
+.invalid {
+    color: red;
+}
+
+.invalid::before {
+    position: relative;
+    left: -35px;
+    content: "x";
+}
